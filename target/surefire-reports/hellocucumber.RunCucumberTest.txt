@@ -1,0 +1,72 @@
+-------------------------------------------------------------------------------
+Test set: hellocucumber.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.624 sec <<< FAILURE!
+Mostrar mensagem de erro de caracteres especiais(enviar formulario)  Time elapsed: 0.159 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "que estou na tela de formulario" is undefined. You can implement it using the snippet(s) below:
+
+@Dado("que estou na tela de formulario")
+public void que_estou_na_tela_de_formulario() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Quando("eu insiro todas as outras informações no formulario do usuário")
+public void eu_insiro_todas_as_outras_informações_no_formulario_do_usuário() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Quando("eu preencho o nome apenas com caracteres especiais")
+public void eu_preencho_o_nome_apenas_com_caracteres_especiais() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Quando("faço o envio do formulario")
+public void faço_o_envio_do_formulario() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Então("vejo a mensagem de erro {string}")
+public void vejo_a_mensagem_de_erro(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Mostrar mensagem de erro de numeros(enviar formulario)  Time elapsed: 0.007 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "que estou na tela de formulario" is undefined. You can implement it using the snippet(s) below:
+
+@Dado("que estou na tela de formulario")
+public void que_estou_na_tela_de_formulario() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Quando("eu insiro todas as outras informações no formulario do usuário")
+public void eu_insiro_todas_as_outras_informações_no_formulario_do_usuário() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Quando("eu preencho o nome apenas com numeros")
+public void eu_preencho_o_nome_apenas_com_numeros() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Quando("faço o envio do formulario")
+public void faço_o_envio_do_formulario() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Então("vejo a mensagem de erro {string}")
+public void vejo_a_mensagem_de_erro(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
