@@ -18,6 +18,9 @@ public class FormularioPage {
     private By campoMensagem = By.cssSelector("textarea[class='dmm-field-text.form-control']");
     private By btnSubmeter = By.cssSelector("button[class='btn.btn-primary.lfr-ddm-form-submit.pull-right']");
     private By msgErro = By.cssSelector("div[class='form-feedback-item.help-block']");
+    private By selectDia = By.cssSelector("#RegistrationForm_day");
+    private By selectMes = By.cssSelector("#RegistrationForm_month");
+    private By selectAno = By.cssSelector("#RegistrationForm_year");
 
     public FormularioPage(WebDriver driver){
         this.driver = driver;
@@ -33,8 +36,10 @@ public class FormularioPage {
         acoesComuns.sendKeys(campoNome, nome);
     }
 
-    public void setData(String data) {
-        acoesComuns.sendKeys(campoData, data);
+    public void setData(String dia, String mes, String ano) {
+        acoesComuns.selectComboBox(selectDia, dia);
+        acoesComuns.selectComboBox(selectMes, mes);
+        acoesComuns.selectComboBox(selectAno, ano);
     }
 
     public void setMensagem(String mensagem) {
