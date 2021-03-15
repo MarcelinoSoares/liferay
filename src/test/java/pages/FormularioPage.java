@@ -13,14 +13,14 @@ public class FormularioPage {
     private WebDriverWait wait;
     private Comum acoesComuns;
 
-    private By campoNome = By.cssSelector("input[class='dmm-field-text.form-control']");
-    private By campoData = By.cssSelector("input[class='form-control.input-group-inset.input-group-inset-after']");
-    private By campoMensagem = By.cssSelector("textarea[class='dmm-field-text.form-control']");
-    private By btnSubmeter = By.cssSelector("button[class='btn.btn-primary.lfr-ddm-form-submit.pull-right']");
-    private By msgErro = By.cssSelector("div[class='form-feedback-item.help-block']");
-    private By selectDia = By.cssSelector("#RegistrationForm_day");
-    private By selectMes = By.cssSelector("#RegistrationForm_month");
-    private By selectAno = By.cssSelector("#RegistrationForm_year");
+    private By campoNome = By.cssSelector("input.ddm-field-text.form-control");
+    private By campoData = By.cssSelector("input.form-control.input-group-inset.input-group-inset-after");
+    private By campoMensagem = By.cssSelector("textarea.ddm-field-text.form-control");
+    private By btnSubmeter = By.cssSelector("button.btn.btn-primary.lfr-ddm-form-submit.pull-right");
+    private By msgErro = By.cssSelector("div.form-feedback-item.help-block");
+    private By selectDia = By.cssSelector("div.day");
+    private By selectMes = By.cssSelector("");
+    private By selectAno = By.cssSelector("");
 
     public FormularioPage(WebDriver driver){
         this.driver = driver;

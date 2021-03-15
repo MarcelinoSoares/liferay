@@ -35,7 +35,7 @@ public class Formulario {
     @Então("^vejo a mensagem de erro \"([^\"]*)\"$")
     public void vejoAMensagemDeErro(String mensagem)  {
         String actualMsg = pageFormulario.getErrorMsg();
-        Assert.assertEquals("This field is required", mensagem, actualMsg);
+        Assert.assertEquals("Este campo é obrigatório.", mensagem, actualMsg);
     }
 
     @Mas("^eu preencho o nome apenas com numeros$")
