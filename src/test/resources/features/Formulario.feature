@@ -1,9 +1,9 @@
 #language: pt
 
-@projetoliferay @enviarformulario
+@projetoliferay @allbugs
 Funcionalidade: enviar formulario
 
-  @enviarformulariocomcaracteresespeciais
+  @bg-01
   Cenário: Mostrar mensagem de erro de caracteres especiais
     Dado que estou na tela de formulario
     Quando eu insiro todas as outras informações no formulario do usuário
@@ -11,7 +11,7 @@ Funcionalidade: enviar formulario
     E faço o envio do formulario
     Então vejo a mensagem de erro "o campo nome nao aceita caracteres especiais."
 
-  @enviarformulariocomnumeros
+  @bg-02
   Cenário: Mostrar mensagem de erro de numeros
     Dado que estou na tela de formulario
     Quando eu insiro todas as outras informações no formulario do usuário
