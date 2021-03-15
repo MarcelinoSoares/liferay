@@ -18,7 +18,7 @@ public class Formulario {
 
     @Quando("^eu insiro todas as outras informações no formulario do usuário$")
     public void euInsiroTodasAsOutrasInformaçõesNoFormularioDoUsuário() {
-        pageFormulario.setData("19", "05", "1980");
+        pageFormulario.setData("19032021");
         pageFormulario.setMensagem("teste");
     }
 
