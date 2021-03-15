@@ -34,7 +34,7 @@ Selênium <br>
 
 📝 **Execução de relatório**
 
-Para realizar a execução e também gerar um relatório para isso, basta usar o seguinte comando ao chamar o pytest:
+Para realizar a execução e também gerar um relatório para isso, basta usar o seguinte comando ao chamar o maven:
 
 ```
 maven -test
